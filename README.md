@@ -1,5 +1,11 @@
 # LAMP stack built with Docker Compose
 
+### Changes in this fork
+- Redis password protected and configured as PHP session store
+- Apache vhost configured for SSL with self-signed certs (don't reuse these)
+- phpMyAdmin requires creds to login
+- Docker containers configured with static IP addresses
+
 ![Landing Page](https://user-images.githubusercontent.com/43859895/141092846-905eae39-0169-4fd7-911f-9ff32c48b7e8.png)
 
 A basic LAMP stack environment built using Docker Compose. It consists of the following:
