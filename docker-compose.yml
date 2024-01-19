@@ -27,6 +27,7 @@ services:
       XDEBUG_CONFIG: "client_host=host.docker.internal remote_port=${XDEBUG_PORT}"
       SESSION_SAVE_PATH: ${SESSION_SAVE_PATH}
       REDIS_PASSWORD: ${REDIS_PASSWORD}
+      SERVER_NAME: ${SERVER_NAME}
     extra_hosts:
       - "host.docker.internal:host-gateway"
     networks:
